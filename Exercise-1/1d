@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            text-align:center;
+            background-color: #f4f4f4;
+            margin:20px;
+        }
+        h1{
+            color:#366;
+        }
+        .gallery{
+            gap:10px;
+            margin:10px;
+            display:inline-block;
+        }
+        .gallery a{
+            text-decoration:none;
+        }
+        .gallery img{
+            width:200px;
+            height:200px;
+            border:2px solid #ddd;
+            border-radius:50%;
+            object-fit:cover;
+            cursor:pointer;
+        }
+        a:hover{
+            text-decoration:underline;
+            
+        }
+        img:hover{
+            transform:scale(2.0);
+            border-color:                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+             black
+        }
+    </style>                                                                                                                                      
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <p>Click on thumbnail to view full sized images.</p>
+    <div class="gallery">
+        <a href="https://t3.ftcdn.net/jpg/02/43/31/64/360_F_243316414_0TS5HktGmnhnMUpvWrwSAneOB8cmIip8.jpg" target="_blank"><img src="moon.jpg" alt="Image1"></a>
+        <a href="https://pokemonletsgo.pokemon.com/assets/img/common/char-pikachu.png" target="_blank"><img src="pikachu.png" alt="Image2"></a>
+        <a href="https://render.fineartamerica.com/images/rendered/default/poster/7/8/break/images/artworkimages/medium/3/doremon-deepak-pengoria.jpg" target="_blank"><img src="doremon.jpg" alt="Image3"></a>
+        <a href="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1183074816-649c5cb4c4d8e.jpg?crop=0.447xw:1.00xh;0.318xw,0&resize=980:*" target="_blank"><img src="rose.jpg" alt="Image4"></a>
+        <a href="https://www.redwolf.in/image/cache/catalog/stickers/tom-and-jerry-duo-sticker-india-600x800.jpg?m=1729076735" target="_blank"><img src="tom.jpeg" alt="Image5"></a>
+    </div>
+</body>
+</html>
