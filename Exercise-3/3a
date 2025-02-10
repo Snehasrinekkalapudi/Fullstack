@@ -109,7 +109,7 @@
 
   <div class="main">
     <h2>About us</h2>
-    <p>Welcome to our website! We are dedicated to providing the best services. Learn more about our journey and values. Here is a work with <mark>highlight</mark> effect.</p>
+    <p>Welcome to our website! We are dedicated to providing the best services. Learn more about our journey and values. Here is a work with <span style="color:blue;font-weight:bold;">highlight</span> effect.</p>
   </div>
    <div class="container">
     <div class="image">
