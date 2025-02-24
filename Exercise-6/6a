@@ -41,5 +41,10 @@
             document.getElementById("internal-demo").innerHTML = "This text is updated using internal JavaScript!";
         }
     </script>
+    <script>
+       function changeTextExternal() {
+           document.getElementById("external-demo").innerHTML = "This text is updated using external JavaScript!";
+       }
+    </script>
 </body>
 </html>
